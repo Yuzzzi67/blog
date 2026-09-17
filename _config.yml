@@ -4,16 +4,16 @@
 
 # Site
 title: Yuzzzi
-subtitle: ''
-description: ''
-keywords:Yuzzzi
+subtitle: '记录碎碎念和我的日常学习'
+description: 'Yuzzzi'
+keywords: Yuzzzi
 author: Yuzzzi
 language: en
 timezone: ''
 theme: butterfly
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://Yuzzzi67.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
