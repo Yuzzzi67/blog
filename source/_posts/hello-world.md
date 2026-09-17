@@ -1,38 +1,36 @@
 ---
-title: Hello World
+title: 任务二-搜索引擎检索语法
+date: 2026-09-17 21:30:00
+tags: [web萌新计划]
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
-## Quick Start
+# 任务二：搜索引擎检索语法（Bing必应）
+## 任务目标
+学会5种搜索语法，避开广告、短视频、水文，精准找到PDF文档、GitHub源码、技术教程。
+>直接浏览器访问 `bing.com`，不需要下载软件。
 
-### Create a new post
+### 1、英文双引号 `"关键词"`｜精确匹配
+>⚠必须英文引号，中文引号无效
+"Python爬虫绕过验证码"
+### 2、减号 `-`｜过滤不需要内容
+格式：内容  -要过滤的词（减号前面要有空格）
+flask入门教程 -B站
+### 3、site:｜限定在某个网站搜索
+>site和冒号中间**不能有空格**
+site:github.com 网络安全笔记
+### 4、filetype:｜只搜指定格式文件
+计算机网络 filetype:pdf
+### 5、OR｜多关键词任选其一，OR必须大写
+Hexo OR Hugo 博客搭建
+## 组合示例
+site:github.com web安全 -CSDN filetype:md
+## 练习题
+1. `"网络安全入门笔记"`
+2. `hexo美化 -CSDN`
+3. `site:github.com web萌新计划`
+4. `渗透测试 filetype:pdf`
 
-``` bash
-$ hexo new "My New Post"
-```
-
-More info: [Writing](https://hexo.io/docs/writing.html)
-
-### Run server
-
-``` bash
-$ hexo server
-```
-
-More info: [Server](https://hexo.io/docs/server.html)
-
-### Generate static files
-
-``` bash
-$ hexo generate
-```
-
-More info: [Generating](https://hexo.io/docs/generating.html)
-
-### Deploy to remote sites
-
-``` bash
-$ hexo deploy
-```
-
-More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+## 踩坑提醒
+1. 全部符号必须是**英文半角**符号
+2. `site:`冒号后面不要加空格
+3. 减号 `-` 的前面一定要打一个空格
