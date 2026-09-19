@@ -24,7 +24,7 @@ tags:
 ## 2. Burp Suite 初体验
 
 ### 2.1 抓取浏览器请求
-
+https://imgchr.com/i/pnMBySP
 ### 2.2 常用模块功能
 1. **Proxy**: 拦截和修改请求。
 2. **Repeater**: 重放请求。
