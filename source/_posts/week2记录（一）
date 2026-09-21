@@ -1,3 +1,8 @@
+---
+title: Week2周报（一）
+date: 2026-09-21 20:00:00
+tags: [学习]
+---
 一.记录
 1. Linux环境搭建：经历了WSL报错（证书无效）、避开流氓下载站陷阱后，
 成功使用VirtualBox在Windows上安装了Ubuntu 22.04.5 LTS系统。
