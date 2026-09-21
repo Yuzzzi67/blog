@@ -1,0 +1,15 @@
+一.记录
+1. Linux环境搭建：经历了WSL报错（证书无效）、避开流氓下载站陷阱后，
+成功使用VirtualBox在Windows上安装了Ubuntu 22.04.5 LTS系统。
+学会了拍快照（纯净初始状态），掌握了基本的Linux命令（whoami, pwd, ls, sudo apt update）。
+
+![Linux环境搭建](../../img/2.png)
+
+2. Docker环境安装：成功使用 sudo apt install -y docker.io 安装Docker，并通过 docker --version 和 docker info 验证引擎正常运行。理解了镜像、容器、仓库的核心概念。
+
+二. 踩坑
+
+· 踩坑1：WSL安装证书错误，然后到VirtualBox。
+· 踩坑2：VirtualBox增强功能因为缺少 gcc-12 编译依赖报错。尝试安装 build-essential 后仍未成功。
+· 踩坑3：运行 docker run hello-world 时，因国内网络限制卡在拉取镜像。
+· 反思：虚拟机的增强功能仅用于鼠标无缝切换和共享剪贴板，Docker拉取镜像仅为了跑通测试。
