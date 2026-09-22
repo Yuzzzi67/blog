@@ -18,6 +18,7 @@ tags:
 ：大小写混合、内联注释、编码
 二靶场实战记录
 （本地环境踩坑：在Ubuntu本地尝试SQLi-Labs时，遇到了PHP8.1与旧版源码兼容问题，导致只能显示welcome
+![踩坑](/img/5.png)
 
 
 
@@ -27,17 +28,19 @@ tags:
 在输入框里输入：1
 
 第二步：判断字段数
-在输入框里输入：1 order by 2
+输入：1 order by 2
+![](/img/7.png)
 
 
-· 预期：页面正常显示数据。
-  接着，把输入框改成：1 order by 3
+把输入框改成：1 order by 3
+![](/img/4.png)
   
 
 
 第三步：获取回显位
 所以判断出字段数是 2，输入
 -1 union select 1,2
+![](/img/6.png)
 
 
 
@@ -47,4 +50,5 @@ tags:
 
 第五步：拿到 Flag
 改成-1 union select 1,flag from flag
+![](/img/8.png)
 
