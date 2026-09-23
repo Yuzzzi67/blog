@@ -18,7 +18,7 @@ tags:
 ：大小写混合、内联注释、编码
 二靶场实战记录
 （本地环境踩坑：在Ubuntu本地尝试SQLi-Labs时，遇到了PHP8.1与旧版源码兼容问题，导致只能显示welcome
-![踩坑](/img/5.png)
+![踩坑](/img/5.jpg)
 
 
 
@@ -33,14 +33,14 @@ tags:
 
 
 把输入框改成：1 order by 3
-![三](/img/4.png)
+![三](/img/4.jpg)
   
 
 
 第三步：获取回显位
 所以判断出字段数是 2，输入
 -1 union select 1,2
-![四](/img/6.png)
+![四](/img/6.jpg)
 
 
 
@@ -50,5 +50,5 @@ tags:
 
 第五步：拿到 Flag
 改成-1 union select 1,flag from flag
-![五](/img/8.png)
+![五](/img/8.jpg)
 
