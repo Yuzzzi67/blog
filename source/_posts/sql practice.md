@@ -1,7 +1,7 @@
 ---
 title: 练习
 date: 2026-09-24 22:00:00
-tags:sql
+tags: sql
 ---
 前情提要：上次的CTFHub页面无回显，所以我选择了PortSwigger
 
